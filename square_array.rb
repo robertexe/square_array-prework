@@ -1,7 +1,15 @@
-def square_array(array)
-  output = []
+# def square_array(array)
+#   output = []
+#   array.each do | element |
+#     output.push(element**2)
+#   end
+#   return output
+# end
+
+
+def  square_array(array)
   array.each do | element |
-    output.push(element**2)
+    element**2
   end
-  return output
+  return array
 end
